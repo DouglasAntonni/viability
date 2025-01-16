@@ -1,0 +1,27 @@
+#mapa-brasil {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+path {
+    cursor: pointer;
+    fill: #2B60DE;
+    transition: fill 0.3s;
+}
+
+path:hover {
+    fill: #1E4D9E !important;
+}
+
+.tooltip {
+    position: absolute;
+    padding: 8px;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-size: 12px;
+    pointer-events: none;
+    display: none;
+}
